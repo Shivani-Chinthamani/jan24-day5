@@ -9,9 +9,9 @@ public class Pattern2 {
 		 * 5 4 3 2
 		 * 5 4 3 2 1
 		 */
-		for(int r=5;r>=1;r--) {// 
-			for(int c=5;c>=r;c--) {// 
-				System.out.print(c+" ");// 
+		for(int r=5;r>=1;r--) {
+			for(int c=5;c>=r;c--) {
+				System.out.print(c+" ");
 			}
 			System.out.println();
 		}
